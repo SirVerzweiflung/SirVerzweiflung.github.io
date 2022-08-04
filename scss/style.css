@@ -1,0 +1,56 @@
+#header {
+  background-color: #c2e9f7;
+  height: 19vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#gameboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: cyan;
+}
+
+#gameboard .row {
+  height: 19vh;
+  margin: auto;
+}
+
+#gameboard .row .col-3 {
+  margin: auto;
+}
+
+#gameboard .row .col-1 {
+  margin: auto;
+}
+
+#gameboard .row .col-2 {
+  margin: auto;
+}
+
+#gameboard .row .col-4 {
+  margin: auto;
+}
+
+#gameboard .row .col-8 {
+  margin: auto;
+}
+
+#live_points_row1 {
+  height: 10vh;
+}
+
+#live_points_row2 {
+  height: 10vh;
+}
+
+#points_fields {
+  font-size: xx-large;
+}
+
+#buttons {
+  font-size: xx-large;
+}
+/*# sourceMappingURL=style.css.map */
