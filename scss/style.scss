@@ -1,4 +1,4 @@
-//@import "../node_modules/bootstrap/css/bootstrap";
+@import "../node_modules/bootstrap/css/bootstrap";
 
 #header {
     background-color: rgb(194, 233, 247);
@@ -28,8 +28,24 @@
         .col-8{
             margin: auto;
         }
+        .player{
+            width: 12vw;
+            height: 12vh;
+            margin: auto;
+            vertical-align: middle;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .player_add{
+                margin: auto;
+            }
+        }
+        
     }
 }
+
+
+
 
 #live_points_row1{
     height: 10vh;

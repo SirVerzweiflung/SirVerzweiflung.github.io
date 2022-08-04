@@ -1,3 +1,4 @@
+@import url(d:\Code\GitHub\WIDD-Board\SirVerzweiflung.github.io\node_modules\bootstrap\css\bootstrap.css);
 #header {
   background-color: #c2e9f7;
   height: 19vh;
@@ -35,6 +36,26 @@
 }
 
 #gameboard .row .col-8 {
+  margin: auto;
+}
+
+#gameboard .row .player {
+  width: 12vw;
+  height: 12vh;
+  margin: auto;
+  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#gameboard .row .player .player_add {
   margin: auto;
 }
 
