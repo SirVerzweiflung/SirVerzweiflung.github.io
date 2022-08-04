@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LukiHauer</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="./scss/style.css" rel="stylesheet">
+</head>
+</head>
+<body>
+    <div id="header" class="text-center">
+        <h1 style="margin: auto">WIDD</h1>
+    </div>
+
+    <div id="gameboard" class="row">
+        <div id="top_players" class="row justify-content-center text-center">
+            <div id="player1" class="col-3">
+                player1
+            </div>
+            <div id="player2" class="col-3">
+                player2
+            </div>
+            <div id="player3" class="col-3">
+                player3
+            </div>
+            <div id="player4" class="col-3">
+                player4
+            </div>
+        </div>
+        <div id="points_fields" class="row justify-content-center text-center">
+            <div id="padding_left" class="col-1"></div>
+            <div id="bank_points" class="col-2">
+                00
+            </div>
+            <div id="live_points" class="col-8">
+                <div id="live_points_row" class="row">
+                    <div id="points1" class="col-2">1</div>
+                    <div id="points2" class="col-2">2</div>
+                    <div id="points3" class="col-2">4</div>
+                    <div id="points4" class="col-2">7</div>
+                    <div id="points5" class="col-2">10</div>
+                </div>
+            </div>
+            <div id="padding_right" class="col-1"></div>
+        </div>
+        <div id="buttons" class="row justify-content-center text-center">
+            <div id="padding2_left" class="col-2"></div>
+            <div id="bank_btn" class="col-2">
+                <button type="button" id="btn_bank" class="btn btn-info btn-lg">Bank</button>
+            </div>
+            <div id="right_btn" class="col-2" onclick="onclick_right()">
+                <button type="button" id="btn_right" class="btn btn-success btn-lg">right</button>
+            </div>
+            <div id="wrong_btn" class="col-2">
+                <button type="button" id="btn_wrong" class="btn btn-danger btn-lg">wrong</button>
+            </div>
+            <div id="padding2_right" class="col-4"></div>
+        </div>
+        <div id="bottom_players" class="row justify--content-center text-center">
+            <div id="player5" class="col-3">
+                player1
+            </div>
+            <div id="player6" class="col-3">
+                player2
+            </div>
+            <div id="player7" class="col-3">
+                player3
+            </div>
+            <div id="player8" class="col-3">
+                player4
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
