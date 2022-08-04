@@ -1,0 +1,47 @@
+//@import "../node_modules/bootstrap/css/bootstrap";
+
+#header {
+    background-color: rgb(194, 233, 247);
+    height: 19vh;
+    display: flex;
+}
+
+#gameboard {
+    display: flex;
+    background-color: cyan;
+    .row{
+        height: 19vh;
+        margin: auto;
+
+        .col-3{
+            margin: auto;
+        }
+        .col-1{
+            margin: auto;
+        }
+        .col-2{
+            margin: auto;
+        }
+        .col-4{
+            margin: auto;
+        }
+        .col-8{
+            margin: auto;
+        }
+    }
+}
+
+#live_points_row1{
+    height: 10vh;
+}
+#live_points_row2{
+    height: 10vh;
+}
+
+#points_fields{
+    font-size: xx-large;
+}
+
+#buttons{
+    font-size: xx-large;
+}
